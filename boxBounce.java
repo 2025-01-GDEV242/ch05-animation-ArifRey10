@@ -12,4 +12,11 @@ public class boxBounce
     private Canvas myCanvas;
     private ArrayList<BoxBall> balls;
     private final int boxX = 50, boxY = 50, boxWidth = 400, boxHeight = 300;
+
+
+ public boxBounce()
+     {
+        myCanvas = new Canvas("Box Bounce", 500, 400);
+        balls = new ArrayList<>();
+     }
 }
