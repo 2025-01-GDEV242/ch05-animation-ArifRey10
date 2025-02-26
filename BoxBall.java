@@ -1,4 +1,5 @@
 import java.awt.*;
+import java.util.Random;
 /**
  * Write a description of class BoxBall here.
  *
@@ -7,5 +8,11 @@ import java.awt.*;
  */
 public class BoxBall
 {
-   
+    private int x, y, dx, dy, diameter;
+    private final Color color;
+    private final int boxX, boxY, boxWidth, boxHeight;
+    private Canvas canvas; 
+
+
+ 
 }
