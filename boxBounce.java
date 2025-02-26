@@ -1,6 +1,6 @@
 import java.awt.*;
 import java.util.ArrayList;
-import java.util.Random;
+
 /**
  * Write a description of class boxBounce here.
  *
@@ -9,5 +9,7 @@ import java.util.Random;
  */
 public class boxBounce
 {
-
+    private Canvas myCanvas;
+    private ArrayList<BoxBall> balls;
+    private final int boxX = 50, boxY = 50, boxWidth = 400, boxHeight = 300;
 }
