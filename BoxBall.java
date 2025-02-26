@@ -13,6 +13,10 @@ public class BoxBall
     private final int boxX, boxY, boxWidth, boxHeight;
     private Canvas canvas; 
 
-
- 
+    
+     public BoxBall(int boxX, int boxY, int boxWidth, int boxHeight, 
+     Canvas canvas)
+     {
+        Random rand = new Random();
+     
 }
