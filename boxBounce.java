@@ -5,7 +5,7 @@ import java.util.Random;
  * Write a description of class boxBounce here.
  *
  * @author (Arif reyhan)
- * @version (a version number or a date)
+ * @version (2/26/2025)
  */
 public class boxBounce
 {
